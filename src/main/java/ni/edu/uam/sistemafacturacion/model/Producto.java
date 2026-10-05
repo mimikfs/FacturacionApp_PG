@@ -3,14 +3,12 @@ package ni.edu.uam.sistemafacturacion.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.math.BigDecimal;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class Producto {
-
     private Integer id;
     private String codigo;
     private String nombre;
@@ -19,4 +17,3 @@ public class Producto {
     private int existencia;
     private boolean activo;
 }
-
